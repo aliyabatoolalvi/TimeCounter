@@ -39,10 +39,6 @@ btns.forEach(function (btn) {
             myAudio.pause();
             myAudio.currentTime = 0;
         }
-
-
     });
-
-
 });
 
