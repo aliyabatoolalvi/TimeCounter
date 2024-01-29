@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: 0;
+    justify-content: center;
     margin: 150px;
 }
 h1{
@@ -23,6 +23,11 @@ span{
     align-items: center;
     justify-content: center; */
 }
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .btn{
     width: 200px;
     height:max-content;
@@ -31,19 +36,16 @@ span{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: rgba(255, 0, 0, 0.849) 0px 30px 60px -12px inset, rgb(255, 248, 105) 0px 18px 36px -18px inset;
+    box-shadow: rgba(255, 251, 32, 0.849) 0px 30px 60px -12px inset, rgb(255, 248, 105) 0px 18px 36px -18px inset;
 }
 
 .bg{
-
     width: fit-content;
     /* height: 100vh; */
     object-fit: contain;
-
-
 }
 .bg img{
     width: 100vw;
     height: auto;
-    clip-path: polygon(0 0,100% 0, 100% 0%, 0 100%);
+    clip-path: polygon(0 0, 100% 50%, 50% 50%, 0 100%);
 }
